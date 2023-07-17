@@ -1,0 +1,217 @@
+h1 {
+    font-family: "Montserrat";
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 30px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 25px;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.dogpic{
+    right: 30%;
+    rotate: 25deg;
+    width: 60%;
+    position: absolute;
+    z-index: 1;
+}
+
+.section2{
+   text-align: center
+  
+}
+
+.section2text {
+    color: grey;
+    font-size: 15px
+}
+
+
+
+.hover1:hover {
+    color: #ef8172;
+
+}
+
+
+
+.sectiontwo{
+    background-color: white; 
+    height: 500px;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    z-index: 2;
+}
+.circlee {
+    width: ;
+    color: #ff4c68;
+}
+.navbar-brand {
+    font-size: 40px;
+    font-family: Ubuntu;
+}
+
+
+
+.dogpaw {
+    margin-right: 20px;
+}
+
+.container-fluid {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.part1 {
+    height: 425px;
+    margin-top: 75px;
+    position: relative;
+}
+
+
+#title {
+    background-color: #ff4c68;
+}
+
+/*testimonial*/
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing*/
+
+.card-header {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.card-deck {
+    text-align: center;
+    
+}
+
+.rowrow {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.carddeck {
+    margin-top:50px;
+}
+
+.butun {
+    width: 90%;
+}
+
+/* call to action*/
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    height: 400px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+
+.h3new {
+    font-family: "Montserrat";
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+
+@media (max-width: 1028px){
+
+    #title {
+        text-align: center;
+    }
+
+    .dogpic {
+        position: static;
+        margin-top: 40px;
+        rotate: 0deg;
+        z-index: 0;
+    }
+    .sectiontwo {
+        height: 700px;
+        z-index: 0;
+    }
+    .part1 {
+        height: auto;
+    }
+}
+
+/* footer*/ 
+
+#footer {
+    color: gray;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.socmeds {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
